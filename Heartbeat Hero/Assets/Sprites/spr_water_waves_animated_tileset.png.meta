@@ -1,0 +1,1825 @@
+fileFormatVersion: 2
+guid: a30480b1305d87e4085ca05e8b6cf5ee
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 16
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_10
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c6e047f13bb40f44bb0fc06376a844c7
+      internalID: -429848001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ab2fd77d425716a48b7a3ece87556438
+      internalID: -250854698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_12
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 072e519287847284aafd120b23a505f3
+      internalID: 845532584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_13
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81eb16aed67261f4d8f99ac98b1e63dd
+      internalID: -1163981036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_14
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0e3c9162cc543f40b4673d9f60fc6c6
+      internalID: 526897084
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_15
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c28a721dde248394d89e8d8b4ef4a6c5
+      internalID: 938383796
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_16
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ca3a0715a8debf4ea881efed97187ad
+      internalID: 1102754270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_17
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 288
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 721e20f957e4c894e808297769fd6dd7
+      internalID: 2140059982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_30
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54e5988f5595eed4ca4439922a968f05
+      internalID: 1837560938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 72112ab20d9842a45bbfafdc1cbd0177
+      internalID: 2019324691
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_32
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 795b515a418db04469712e5574ef91d4
+      internalID: 1971810854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_33
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ad4104521535934ea12f2b29f357db1
+      internalID: 389777589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_34
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa7991c7e6d177041ba96acd3e5f8b77
+      internalID: -1377400485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_35
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79e73698e20fd0e46a517a4038c75f20
+      internalID: 1536054584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_36
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9f4a2dc3328ebe54cacde4443f8a468b
+      internalID: -189096567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_37
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 256
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a8a3b9dfe6b2ab34c9a43efb20deff13
+      internalID: -1677131166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_50
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a3601595b62d28419cf1d768b303b59
+      internalID: -1542737211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_51
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 165f3c225583d89499efd454365fab76
+      internalID: -936043858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_52
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c31b76d8bbac164c88b02b45f09bcc0
+      internalID: -1587080032
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_53
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd630ebdefbcd0a44b378edc87e90652
+      internalID: -270943490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_54
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8eebd56066c655240bfc72ae677158fc
+      internalID: 50354264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_55
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9839b017e0f1fd7458ed10a2bc10a28e
+      internalID: 1969816633
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_56
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eb8711845b5d9342adcd8b89fb34249
+      internalID: 1491344681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_57
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5239c51e953e8ca49b9402d8d9eb98d3
+      internalID: 71972080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_70
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3d2553c3b0f8394f932380b9c6deb62
+      internalID: -1923703069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_71
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51140a5c6094fcc4c8fa706e5e711f15
+      internalID: -471349218
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_72
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 63bea3057bc5e554aa882d7758a5c489
+      internalID: -232281898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_73
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5240ee021a19f8428da43717b3ddad9
+      internalID: -1087953095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_74
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17b01e457516e254f9dd8b7e0c3d1839
+      internalID: 884144537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_75
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e3e0723b9abad54c84135136d1b609a
+      internalID: -503753265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_76
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e1d14f7b80fbf2458091f14000fbe23
+      internalID: -262985000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_77
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 192
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d5edfba59986a3641a0ba26e3d3c8a69
+      internalID: 1222041054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_90
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f90b60ef34f81a14c900eabc57f38f81
+      internalID: -1961917719
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_91
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b463e82045d5a5468a9a70156e5787f
+      internalID: -2109453051
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_92
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a0dab9377920934f80df2ef4b93b041
+      internalID: 1671483881
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_93
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45d8a6fe1c3b3bd40b000ece2845bba7
+      internalID: -1928325313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_94
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a72fdf15188279458b85da1c796e7c2
+      internalID: -1411755637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_95
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: baa40e2d56fb00747af1526d86095761
+      internalID: -594394679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_96
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5097deb8d6ab63747914ff05d8fc1e71
+      internalID: -2090018782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_97
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 160
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95725e808c39fbf4f9099e0b491f54c7
+      internalID: 1936585834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_110
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccda3697a230db444997ef33d5b2a763
+      internalID: 2073941567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_111
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d86bcf1969196e8409bbe1c1f89e9bf3
+      internalID: 1076221640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_112
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81a4a577dff3d4247816b50b83af4a52
+      internalID: 168905590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_113
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ff20c93979312345bdc81dd4c1e3b36
+      internalID: -1574442684
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_114
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b2f0bc709fc123458b381677a4a0f4b
+      internalID: 1213919035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_115
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c1d05ac77ee3a42b3411653fb29037
+      internalID: 360126715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_116
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a09c70f16ef497e49b338282312cfe54
+      internalID: 606409562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_117
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 128
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62641b6c96e261b4cb822222716164c5
+      internalID: -713275604
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_130
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 836c1801b7655874a8ab98d638963179
+      internalID: 704178922
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_131
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c5130bc5d45535c43b37646f0f6e1079
+      internalID: -801683402
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_132
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f5d322731ad06c418cc776b99db611d
+      internalID: 1450363046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_133
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cbc8c65d81a7e0c46b042b95721775eb
+      internalID: -523646291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_134
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 160b47fbdaaeafa409b4ec89a10b92b3
+      internalID: -369417718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_135
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db8f9cc6169853243a1b389e6f7015f3
+      internalID: 1365492489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_136
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f9ca9ff03e53b949ae9c6f7c09f5af8
+      internalID: -1066578861
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_137
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 96
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ead69e42ad783014cb8a2c9097b4a994
+      internalID: -190969895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_150
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dd0484b213472f4d9b96b40732b9d58
+      internalID: 137651313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_151
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b2124cf9326d0c446a0d81d9db7b49cb
+      internalID: 110166479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_152
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 408808ddeed11044e8bea1cda110315c
+      internalID: 550488822
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_153
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6433ca26d1c21764e84c5130befe765f
+      internalID: 13810254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_154
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 47e2963c34b2f2549aa673e14f6c6ec3
+      internalID: 1993513950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_155
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a07376250f3c4bd47823a3e87bfaed40
+      internalID: -2027242018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_156
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e03ea87ec0ebdbd41aa3f4046afb2e2c
+      internalID: -1829463919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_157
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 64
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8317fcc725d322f48a375bcea6ef0e57
+      internalID: -1104599864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_170
+      rect:
+        serializedVersion: 2
+        x: 16
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59de2f1a17f2bdf45a1b87207f6c2d66
+      internalID: -1622208522
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_171
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5558a8d1f18576441b05a69a6d083fd7
+      internalID: 510686029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_172
+      rect:
+        serializedVersion: 2
+        x: 48
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3979b99ad3d50c42887c3ca7b762db1
+      internalID: 1011607600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_173
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b947c91cf22bd174a9f16dc9d7ec493a
+      internalID: -418776225
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_174
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adf6b8713c1a20c4b85c14815d23f29b
+      internalID: 538239819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_175
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4c6615f3ef75b414b8a9ef623493f7fb
+      internalID: 777659830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_176
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26d38e1eb875f4498322be210846fab
+      internalID: -1875300581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spr_water_waves_animated_tileset_177
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 32
+        width: 16
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38f8feeaafbebca41ba4c7192c4ae014
+      internalID: -2023587414
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      spr_water_waves_animated_tileset_0: -1440018270
+      spr_water_waves_animated_tileset_1: 789548909
+      spr_water_waves_animated_tileset_10: -429848001
+      spr_water_waves_animated_tileset_100: -605550225
+      spr_water_waves_animated_tileset_101: -488275909
+      spr_water_waves_animated_tileset_102: -2095912165
+      spr_water_waves_animated_tileset_103: -1567246262
+      spr_water_waves_animated_tileset_104: -718869683
+      spr_water_waves_animated_tileset_105: 1486814694
+      spr_water_waves_animated_tileset_106: -1997467961
+      spr_water_waves_animated_tileset_107: 774544995
+      spr_water_waves_animated_tileset_108: 2094717252
+      spr_water_waves_animated_tileset_109: -2011058647
+      spr_water_waves_animated_tileset_11: -250854698
+      spr_water_waves_animated_tileset_110: 2073941567
+      spr_water_waves_animated_tileset_111: 1076221640
+      spr_water_waves_animated_tileset_112: 168905590
+      spr_water_waves_animated_tileset_113: -1574442684
+      spr_water_waves_animated_tileset_114: 1213919035
+      spr_water_waves_animated_tileset_115: 360126715
+      spr_water_waves_animated_tileset_116: 606409562
+      spr_water_waves_animated_tileset_117: -713275604
+      spr_water_waves_animated_tileset_118: 976020778
+      spr_water_waves_animated_tileset_119: -2070686178
+      spr_water_waves_animated_tileset_12: 845532584
+      spr_water_waves_animated_tileset_120: -1498027344
+      spr_water_waves_animated_tileset_121: 980568109
+      spr_water_waves_animated_tileset_122: 1296729735
+      spr_water_waves_animated_tileset_123: 1733328097
+      spr_water_waves_animated_tileset_124: 191263991
+      spr_water_waves_animated_tileset_125: 1655475518
+      spr_water_waves_animated_tileset_126: 1159727790
+      spr_water_waves_animated_tileset_127: 227257407
+      spr_water_waves_animated_tileset_128: 1268160016
+      spr_water_waves_animated_tileset_129: 1003185655
+      spr_water_waves_animated_tileset_13: -1163981036
+      spr_water_waves_animated_tileset_130: 704178922
+      spr_water_waves_animated_tileset_131: -801683402
+      spr_water_waves_animated_tileset_132: 1450363046
+      spr_water_waves_animated_tileset_133: -523646291
+      spr_water_waves_animated_tileset_134: -369417718
+      spr_water_waves_animated_tileset_135: 1365492489
+      spr_water_waves_animated_tileset_136: -1066578861
+      spr_water_waves_animated_tileset_137: -190969895
+      spr_water_waves_animated_tileset_138: -2128909140
+      spr_water_waves_animated_tileset_139: 25959326
+      spr_water_waves_animated_tileset_14: 526897084
+      spr_water_waves_animated_tileset_140: -2106852551
+      spr_water_waves_animated_tileset_141: 232419486
+      spr_water_waves_animated_tileset_142: 494205699
+      spr_water_waves_animated_tileset_143: -742715186
+      spr_water_waves_animated_tileset_144: 369933573
+      spr_water_waves_animated_tileset_145: 416919477
+      spr_water_waves_animated_tileset_146: 330478346
+      spr_water_waves_animated_tileset_147: 29758011
+      spr_water_waves_animated_tileset_148: 753260340
+      spr_water_waves_animated_tileset_149: -1093444003
+      spr_water_waves_animated_tileset_15: 938383796
+      spr_water_waves_animated_tileset_150: 137651313
+      spr_water_waves_animated_tileset_151: 110166479
+      spr_water_waves_animated_tileset_152: 550488822
+      spr_water_waves_animated_tileset_153: 13810254
+      spr_water_waves_animated_tileset_154: 1993513950
+      spr_water_waves_animated_tileset_155: -2027242018
+      spr_water_waves_animated_tileset_156: -1829463919
+      spr_water_waves_animated_tileset_157: -1104599864
+      spr_water_waves_animated_tileset_158: -1705249314
+      spr_water_waves_animated_tileset_159: -355920382
+      spr_water_waves_animated_tileset_16: 1102754270
+      spr_water_waves_animated_tileset_160: 2134564274
+      spr_water_waves_animated_tileset_161: 952206503
+      spr_water_waves_animated_tileset_162: -1966576193
+      spr_water_waves_animated_tileset_163: -1626733327
+      spr_water_waves_animated_tileset_164: 1129408747
+      spr_water_waves_animated_tileset_165: 1441430225
+      spr_water_waves_animated_tileset_166: 2096316628
+      spr_water_waves_animated_tileset_167: -1779603195
+      spr_water_waves_animated_tileset_168: -1784355432
+      spr_water_waves_animated_tileset_169: 83023507
+      spr_water_waves_animated_tileset_17: 2140059982
+      spr_water_waves_animated_tileset_170: -1622208522
+      spr_water_waves_animated_tileset_171: 510686029
+      spr_water_waves_animated_tileset_172: 1011607600
+      spr_water_waves_animated_tileset_173: -418776225
+      spr_water_waves_animated_tileset_174: 538239819
+      spr_water_waves_animated_tileset_175: 777659830
+      spr_water_waves_animated_tileset_176: -1875300581
+      spr_water_waves_animated_tileset_177: -2023587414
+      spr_water_waves_animated_tileset_178: -1917358172
+      spr_water_waves_animated_tileset_179: 1372463074
+      spr_water_waves_animated_tileset_18: -497181076
+      spr_water_waves_animated_tileset_180: -747297629
+      spr_water_waves_animated_tileset_181: 1678217223
+      spr_water_waves_animated_tileset_182: -360775145
+      spr_water_waves_animated_tileset_183: -570500863
+      spr_water_waves_animated_tileset_184: -1703922801
+      spr_water_waves_animated_tileset_185: 1778880360
+      spr_water_waves_animated_tileset_186: -1740825519
+      spr_water_waves_animated_tileset_187: 1646392600
+      spr_water_waves_animated_tileset_188: 105534723
+      spr_water_waves_animated_tileset_189: 305772917
+      spr_water_waves_animated_tileset_19: -1625351029
+      spr_water_waves_animated_tileset_190: -1627348103
+      spr_water_waves_animated_tileset_191: -2067338510
+      spr_water_waves_animated_tileset_192: 2006462684
+      spr_water_waves_animated_tileset_193: -1122990622
+      spr_water_waves_animated_tileset_194: -2006754926
+      spr_water_waves_animated_tileset_195: -1809662389
+      spr_water_waves_animated_tileset_196: -201969847
+      spr_water_waves_animated_tileset_197: -1959765123
+      spr_water_waves_animated_tileset_198: 1574625569
+      spr_water_waves_animated_tileset_2: 1165554824
+      spr_water_waves_animated_tileset_20: 1724447553
+      spr_water_waves_animated_tileset_21: -29793617
+      spr_water_waves_animated_tileset_22: -1014647892
+      spr_water_waves_animated_tileset_23: 778584822
+      spr_water_waves_animated_tileset_24: -1150014216
+      spr_water_waves_animated_tileset_25: 1043996814
+      spr_water_waves_animated_tileset_26: 1595802771
+      spr_water_waves_animated_tileset_27: 451728222
+      spr_water_waves_animated_tileset_28: 1242691475
+      spr_water_waves_animated_tileset_29: -941475521
+      spr_water_waves_animated_tileset_3: -1934914723
+      spr_water_waves_animated_tileset_30: 1837560938
+      spr_water_waves_animated_tileset_31: 2019324691
+      spr_water_waves_animated_tileset_32: 1971810854
+      spr_water_waves_animated_tileset_33: 389777589
+      spr_water_waves_animated_tileset_34: -1377400485
+      spr_water_waves_animated_tileset_35: 1536054584
+      spr_water_waves_animated_tileset_36: -189096567
+      spr_water_waves_animated_tileset_37: -1677131166
+      spr_water_waves_animated_tileset_38: 766902176
+      spr_water_waves_animated_tileset_39: 1318187590
+      spr_water_waves_animated_tileset_4: 2109066653
+      spr_water_waves_animated_tileset_40: 1557647882
+      spr_water_waves_animated_tileset_41: 892698378
+      spr_water_waves_animated_tileset_42: 1238636667
+      spr_water_waves_animated_tileset_43: -272239874
+      spr_water_waves_animated_tileset_44: -168073459
+      spr_water_waves_animated_tileset_45: 1025834773
+      spr_water_waves_animated_tileset_46: -2029298023
+      spr_water_waves_animated_tileset_47: -951195260
+      spr_water_waves_animated_tileset_48: -1112118310
+      spr_water_waves_animated_tileset_49: 1092527169
+      spr_water_waves_animated_tileset_5: 1434372055
+      spr_water_waves_animated_tileset_50: -1542737211
+      spr_water_waves_animated_tileset_51: -936043858
+      spr_water_waves_animated_tileset_52: -1587080032
+      spr_water_waves_animated_tileset_53: -270943490
+      spr_water_waves_animated_tileset_54: 50354264
+      spr_water_waves_animated_tileset_55: 1969816633
+      spr_water_waves_animated_tileset_56: 1491344681
+      spr_water_waves_animated_tileset_57: 71972080
+      spr_water_waves_animated_tileset_58: -212502031
+      spr_water_waves_animated_tileset_59: -1111045641
+      spr_water_waves_animated_tileset_6: 1155134718
+      spr_water_waves_animated_tileset_60: -192172754
+      spr_water_waves_animated_tileset_61: -166349001
+      spr_water_waves_animated_tileset_62: 623491826
+      spr_water_waves_animated_tileset_63: 175597110
+      spr_water_waves_animated_tileset_64: 1439752822
+      spr_water_waves_animated_tileset_65: 909259698
+      spr_water_waves_animated_tileset_66: -1757946084
+      spr_water_waves_animated_tileset_67: 74095197
+      spr_water_waves_animated_tileset_68: -1467631965
+      spr_water_waves_animated_tileset_69: -865393354
+      spr_water_waves_animated_tileset_7: -1266293388
+      spr_water_waves_animated_tileset_70: -1923703069
+      spr_water_waves_animated_tileset_71: -471349218
+      spr_water_waves_animated_tileset_72: -232281898
+      spr_water_waves_animated_tileset_73: -1087953095
+      spr_water_waves_animated_tileset_74: 884144537
+      spr_water_waves_animated_tileset_75: -503753265
+      spr_water_waves_animated_tileset_76: -262985000
+      spr_water_waves_animated_tileset_77: 1222041054
+      spr_water_waves_animated_tileset_78: 543420361
+      spr_water_waves_animated_tileset_79: -1436490399
+      spr_water_waves_animated_tileset_8: 1125178558
+      spr_water_waves_animated_tileset_80: 998111294
+      spr_water_waves_animated_tileset_81: 1684596871
+      spr_water_waves_animated_tileset_82: -1247443247
+      spr_water_waves_animated_tileset_83: 725024240
+      spr_water_waves_animated_tileset_84: 225743892
+      spr_water_waves_animated_tileset_85: -306031269
+      spr_water_waves_animated_tileset_86: 1609124934
+      spr_water_waves_animated_tileset_87: -1889836331
+      spr_water_waves_animated_tileset_88: -2085773324
+      spr_water_waves_animated_tileset_89: -1445461851
+      spr_water_waves_animated_tileset_9: 423902935
+      spr_water_waves_animated_tileset_90: -1961917719
+      spr_water_waves_animated_tileset_91: -2109453051
+      spr_water_waves_animated_tileset_92: 1671483881
+      spr_water_waves_animated_tileset_93: -1928325313
+      spr_water_waves_animated_tileset_94: -1411755637
+      spr_water_waves_animated_tileset_95: -594394679
+      spr_water_waves_animated_tileset_96: -2090018782
+      spr_water_waves_animated_tileset_97: 1936585834
+      spr_water_waves_animated_tileset_98: 2097720248
+      spr_water_waves_animated_tileset_99: 1485753094
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
