@@ -2,7 +2,7 @@ using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
-public class titlescreen : MonoBehaviour
+public class TitleScreenManager : MonoBehaviour
 {
     // Start is called before the first frame update
     public void StartGame()
