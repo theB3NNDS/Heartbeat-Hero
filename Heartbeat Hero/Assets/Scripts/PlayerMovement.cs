@@ -6,50 +6,38 @@ using UnityEngine.InputSystem;
 
 public class PlayerMovement : MonoBehaviour
 {
+    //necessary variables
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
+    private Vector2 movementInput, pointerInput;
 
-    /*
-    Vector2 movement;
-    Vector2 mousePos;
-    */
+    //input reference so it can be called
     [SerializeField]
     private InputActionReference movement, pointerPosition;
 
-    private Vector2 movementInput, pointerInput;
-
+    //reference for WeaponParent script to pass pointer position
     private WeaponParent weaponParent;
 
-    private void Start()
+    private void Awake()
     {
+        
         weaponParent = GetComponentInChildren<WeaponParent>();
     }
 
-    // Update is called once per frame
     void Update()
     {
         movementInput = movement.action.ReadValue<Vector2>();
         pointerInput = GetPointerInput();
         weaponParent.pointerPosition = pointerInput;
-
-        /*
-        movement.x = Input.GetAxisRaw("Horizontal");
-        movement.y = Input.GetAxisRaw("Vertical");
-
-        mousePos = cam.ScreenToWorldPoint(Input.mousePosition);
-        */
     }
 
     void FixedUpdate()
     {
-        rb.MovePosition(rb.position + movementInput * moveSpeed * Time.fixedDeltaTime);
-        /*
-        Vector2 lookDir = mousePos - rb.position;
-        float angle = Mathf.Atan2(lookDir.y, lookDir.x) * Mathf.Rad2Deg - 90f;
-        rb.rotation = angle;
-        */
+        //movement logic
+        rb.MovePosition(rb.position + movementInput.normalized * moveSpeed * Time.fixedDeltaTime);
     }    
-
+ 
+    //gets pointer input to be used by WeaponParent script
     private Vector2 GetPointerInput()
     {
         Vector3 mousePos = pointerPosition.action.ReadValue<Vector2>();

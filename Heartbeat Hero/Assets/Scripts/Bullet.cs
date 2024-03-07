@@ -6,6 +6,12 @@ public class Bullet : MonoBehaviour
 {
 
     public GameObject hitEffect;
+    public float speed;
+    void Update()
+    {
+        transform.Translate(Vector3.right * speed * Time.deltaTime);
+    }
+
     void OnCollisionEnter2D(Collision2D collision)
     {
         //GameObject effect = Instantiate(hitEffect, transform.position, Quaternion.identity);

@@ -3,34 +3,29 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class ShootingMechanic : MonoBehaviour
+public class PlayerShooting : MonoBehaviour
 {
-    public Transform firePoint;
     public GameObject bulletPrefab;
-
+    public Transform firePoint;
     public float bulletForce = 20f;
-    private float timer;
-    public float timeBetweenFiring;
-    // Update is called once per frame
+    public float timeBetweenFire;
+    float nextFireTime;
 
     [SerializeField]
     private InputActionReference shoot;
 
-    public Vector2 pointerPosition { get; set; }
-
-    void Update()
-    {
-        
-
-    }
-
     void Shoot()
     {
-        GameObject bullet = Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
-        Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
-    }
+        if (Time.time > nextFireTime)
+        {
+            nextFireTime = Time.time + timeBetweenFire;
+            Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
+        }
 
+        
+        //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
+        //rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
+    }
     private void OnEnable()
     {
         shoot.action.performed += PerformShoot;
@@ -46,7 +41,5 @@ public class ShootingMechanic : MonoBehaviour
         Debug.Log("Shoot");
         Shoot();
     }
+
 }
-
-
-
