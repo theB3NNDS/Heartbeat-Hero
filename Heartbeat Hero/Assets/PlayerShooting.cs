@@ -7,7 +7,6 @@ public class PlayerShooting : MonoBehaviour
 {
     public GameObject bulletPrefab;
     public Transform firePoint;
-    public float bulletForce = 20f;
     public float timeBetweenFire;
     float nextFireTime;
 
