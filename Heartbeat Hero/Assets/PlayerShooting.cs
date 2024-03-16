@@ -11,7 +11,7 @@ public class PlayerShooting : MonoBehaviour
     float nextFireTime;
 
     [SerializeField]
-    private InputActionReference shoot;
+    private InputActionReference shoot, weaponSwap, dodgeRoll;
 
     void Shoot()
     {
@@ -20,19 +20,32 @@ public class PlayerShooting : MonoBehaviour
             nextFireTime = Time.time + timeBetweenFire;
             Instantiate(bulletPrefab, firePoint.position, firePoint.rotation);
         }
-
-        
         //Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
         //rb.AddForce(firePoint.up * bulletForce, ForceMode2D.Impulse);
     }
+
+    void WeaponSwap()
+    {
+
+    }
+
+    void DodgeRoll()
+    {
+
+    }
+
     private void OnEnable()
     {
         shoot.action.performed += PerformShoot;
+        weaponSwap.action.performed += PerformWeaponSwap;
+        dodgeRoll.action.performed += PerformDodgeRoll;
     }
 
     private void OnDisable()
     {
         shoot.action.performed -= PerformShoot;
+        weaponSwap.action.performed -= PerformWeaponSwap;
+        dodgeRoll.action.performed -= PerformDodgeRoll;
     }
 
     private void PerformShoot (InputAction.CallbackContext obj)
@@ -40,5 +53,19 @@ public class PlayerShooting : MonoBehaviour
         Debug.Log("Shoot");
         Shoot();
     }
+
+    private void PerformWeaponSwap (InputAction.CallbackContext obj)
+    {
+        Debug.Log("Swap");
+        WeaponSwap();
+    }
+
+    private void PerformDodgeRoll (InputAction.CallbackContext obj)
+    {
+        Debug.Log("Roll");
+        DodgeRoll();
+    }
+
+    
 
 }
