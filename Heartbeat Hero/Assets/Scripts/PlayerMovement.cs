@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -10,6 +11,9 @@ public class PlayerMovement : MonoBehaviour
     public float moveSpeed = 5f;
     public Rigidbody2D rb;
     private Vector2 movementInput, pointerInput;
+    public int maxHealth = 10;
+    public int currentHealth;
+    public healthBar healthbar;
 
     //input reference so it can be called
     [SerializeField]
@@ -20,7 +24,8 @@ public class PlayerMovement : MonoBehaviour
 
     private void Awake()
     {
-        
+        currentHealth = maxHealth;
+        healthbar.SetMaxHealth(maxHealth);
         weaponParent = GetComponentInChildren<WeaponParent>();
     }
 
@@ -29,6 +34,11 @@ public class PlayerMovement : MonoBehaviour
         movementInput = movement.action.ReadValue<Vector2>();
         pointerInput = GetPointerInput();
         weaponParent.pointerPosition = pointerInput;
+
+        if (currentHealth <= 0){
+            SceneManager.LoadScene("titlescreen");
+        }
+        
     }
 
     void FixedUpdate()
@@ -43,5 +53,13 @@ public class PlayerMovement : MonoBehaviour
         Vector3 mousePos = pointerPosition.action.ReadValue<Vector2>();
         mousePos.z = Camera.main.nearClipPlane;
         return Camera.main.ScreenToWorldPoint(mousePos);
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        if (other.tag == "Enemy"){
+            currentHealth -= 1;
+            healthbar.SetHealth(currentHealth);
+        }
     }
 }
